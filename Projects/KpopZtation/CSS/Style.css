@@ -1,0 +1,188 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+
+.*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header h1 {
+    font-family: Cabin, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0e1111;
+}
+
+.subheader-text {
+    display: flex;
+    justify-content: center;
+
+    font-family: Cabin, sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    color: #0e1111;
+}
+
+.Button-Container{
+    display: flex;
+    justify-content: center;
+}
+
+.Button {
+    /*display: flex;*/
+    justify-content: center;
+
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-container, .footer-container{
+    background-color: #24252A;
+}
+
+.navbar-link a, button, footer{
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    font-family: Cabin, sans-serif;
+    font-weight:bold;
+    font-size: 23px;
+    color: #edf0f1;
+    cursor: default;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-links li a:hover{
+    color: #0088a9;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-container h3, .footer-container p, .footer-container ul {
+    margin: 10px 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-icons a {
+    color: #0088A9;
+}
+
+.social-icons a:hover {
+    color: #CBE4DE;
+}
+
+.footer-container p span {
+    font-weight: bold;
+}
+
+.button {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color: #0088A9;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.listview-button {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0088A9;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.listview-container {
+    display: flex;
+    justify-content: center;
+}
+
+.listview-container tr td {
+    text-align: center;
+}
+
+.list {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    transition: transform 0.3s ease;
+}
+
+.field-item{
+    margin-bottom: 10px;
+}
+
+.image-header{
+    width: 420px;
+    height: 420px;
+}

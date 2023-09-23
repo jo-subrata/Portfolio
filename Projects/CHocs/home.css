@@ -1,0 +1,206 @@
+body {
+    background-color: #F4E6D2;
+}
+
+.img {
+    background-image: url(Asset/Home/background.png);
+    width: 100%;
+    height: 42vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img p {
+    font-size: 5.2vw;
+    color: white;
+    margin-left: 3%;
+    font-family: 'Poppins';
+    line-height: 128%;
+}
+
+.aboutus {
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.about {
+    width: 78.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Luxurious Script';
+    font-size: 67.3px;
+    letter-spacing: 0.1em;
+    margin-bottom: 3%;
+}
+
+.about p {
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 25px;
+    line-height: 37px;
+}
+
+.readbtn {
+    width: 175px;
+    height: 59px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.readbtn:hover {
+    background-color: #F4E6D2;
+    border: 1px solid black;
+}
+
+.about a {
+    margin-top: 8%;
+    color: white;
+    text-decoration: none;
+}
+
+.about a:hover {
+    color: black;
+}
+
+.rec {
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 504.5px;
+    background-image: url(Asset/Home/WallpaperDog-10836456\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.rec h2 {
+    margin-top: 2%;
+    color: white;
+    text-align: center;
+}
+
+.recommend {
+    margin-top: 3.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 78%;
+}
+
+.circle {
+    width: 143.27px;
+    height: 143.27px;
+    background-color: #F4E6D2;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.circleInside {
+    width: 124.583px;
+    height: 124.583px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+}
+
+.circleText {
+    width: 124.583px;
+    height: 124.583px;
+    border-radius: 100%;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    transition: 0.3s;
+}
+
+.circleText p {
+    width: 124.583px;
+    height: 124.583px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Luxurious Script';
+    font-size: 30px;
+    color: white;
+    opacity: 0;
+    transition: 0.3s;
+    padding: 1%;
+}
+
+.circleText:hover + .circleInside {
+    filter: brightness(50%);
+}
+
+.circleText p:hover {
+    opacity: 100%;
+}
+
+.f {
+    background-image: url(Asset/Home/chocball.png);
+}
+
+.s {
+    background-image: url(Asset/Home/chocake.png);
+}
+
+.t {
+    background-image: url(Asset/Home/chopud.png);
+}
+
+.fo {
+    background-image: url(Asset/Home/icecream.png);
+}
+
+@media screen and (max-width: 768px) {
+    .img {
+        margin-top: 120px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .readbtn {
+        width: 120px;
+        height: 50px;
+    }
+
+    .circle {
+        margin: 5%;
+    }
+}

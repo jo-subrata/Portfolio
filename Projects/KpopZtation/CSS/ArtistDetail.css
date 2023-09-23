@@ -1,0 +1,53 @@
+﻿body {
+}
+
+.listview-container {
+    display: flex;
+    justify-content: center;
+}
+
+.listview-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listview-items table {
+    margin: 10px;
+}
+
+.listview-container tr td {
+    text-align: center;
+}
+
+
+.image-link {
+    display: inline-block;
+    padding: 10px;
+    pointer-events: auto;
+}
+
+.image-link:hover {
+    background-color: #24252A;
+}
+
+.list {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+}
+
+
+.ad-image {
+    height: 320px;
+    width: 320px;
+}
+
+.artistImage{
+    height: 500px;
+    width: 500px;
+}
+
+/*.list:hover{
+    background-color: #6D5D6E;
+}*/

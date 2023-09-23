@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NavigationBar.master.cs" Inherits="Kpop_Ztation.View.NavigationBar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="Stylesheets" runat="server">
+        <link rel="stylesheet" href="../CSS/Style.css" runat="server"/>
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="navbar-container">
+            <header>
+                <h1 class="logo">KpopZtation</h1>
+                <nav>
+                    <ul class="navbar-link">
+                        
+                        <%if (Session["User"] == null)
+                            { %>
+                        <li><a href="../View/Homepage.aspx">Home</a></li>
+                        <li><a href="../View/LoginPage.aspx">Login</a></li>
+                        <li><a href="../View/RegisterPage.aspx">Register</a></li>
+                        <%} %>
+
+                        <%else if (Session["User"] != null && checkRole())
+                            { %>
+                        <li><a href="../View/Homepage.aspx">Home</a></li>                        
+                        <li><a href="../View/TransactionReport.aspx">Transaction Report</a></li>
+                        <li><a href="../View/UpdateProfile.aspx">Update Profile</a></li>
+                        <%} %>
+
+                        <% else
+                            { %>
+                        <li><a href="../View/Homepage.aspx">Home</a></li>
+                        <li><a href="../View/CartPage.aspx">Cart</a></li>
+                        <li><a href="../View/TransactionPage.aspx">Transaction History</a></li>
+                        <li><a href="../View/UpdateProfile.aspx">Update Profile</a></li>
+                        <%} %>
+
+                        
+                    </ul>
+                </nav>
+                <%if (Session["User"] == null)
+                    { %>
+                <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+                <%} %>
+                <%else
+                    { %>
+                <asp:Button ID="logoutButton" class="button" runat="server" Text="Logout" OnClick="logoutButton_Click" />
+                <%--<a class="cta" href="#"><button>Logout</button></a>--%>
+                <%} %>
+
+            </header>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="WebsiteContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+       <div class="footer-container">
+                <footer>
+                    <h3>KpopZtation</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a sagittis mauris, sed suscipit lectus.</p>
+                       <ul class="social-icons">
+                           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                           <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                       </ul>
+
+                       <p>Copyright &#169 2023 All Rights Reserved</p>
+                </footer>
+            </div>
+
+    </form>
+</body>
+</html>
