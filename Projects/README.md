@@ -25,4 +25,3 @@ This project is a website where users can look and buy for their favorite Kpop a
 - Backend: 
   - Logic: C#
   - Database: SQL
-  - Reporting: SAP Crystal Reports
