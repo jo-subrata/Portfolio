@@ -1,6 +1,6 @@
 ## Projects
 
-### Project 1: [Password Manager](./Projects/PasswordManager/)
+### Project 1: [Password Manager](./PasswordManager/)
 
 **Description:** 
 This project was a final assignment for Object-Oriented Programming built using Java and its built-in libraries that are made use for its safe-keeping features and encryption of users' passwords. With this project, the aims is to understand the principles of Object-Oriented Programming and how it can be applied to real-life problems.

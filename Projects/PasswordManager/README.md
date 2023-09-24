@@ -1,10 +1,16 @@
 <h1>Password Generator</h1>
 
-Class : LF01 (Semester 3 - Academic Year 2022/2023)
 
-Lecturer : D6616 - Kartika Purwandari, S,Kom., M.Sc.
+**Description:**
+This project was a final assignment for Object-Oriented Programming built using Java and its built-in libraries that are made use for its safe-keeping features and encryption of users' passwords. With this project, the aims is to understand the principles of Object-Oriented Programming and how it can be applied to real-life problems.
 
-Members (Group 3):
+**Language used:** Java
+#
+
+### Lecturer : 
+D6616 - Kartika Purwandari, S,Kom., M.Sc.
+
+### Members:
 - 2501966111 - Nicholas
 - 2501967335 - Joshua Patrick Yao
 - 2501968943 - Jonathan Emmanuel
