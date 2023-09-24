@@ -1,28 +1,21 @@
 # <p style="text-align: center;"> About Me </p>
   <p style="text-align: center;"> Jonathan Emmanuel </p>
   <p style="text-align: center;"> Undergraduate Student of 2025 at BINUS University </p>
+  <p style="text-align: center;"> Based in Jakarta, Indonesia </p>
   
 
-## Introduction
+## Introduction (About Me)
+Greetings, my name is Jonathan Emmanuel. I am a passionate Computer Science student at Bina Nusantara University, driven by a deep fascination with technology and a strong desire to make a positive impact on the world through innovative solutions.
 
 Welcome to my portfolio, where I document my learning journey majoring in Computer Science at Bina Nusantara University. Here, you'll find a collection of projects, experiences, and achievements that reflect my growth and development as a computer science student. From coding challenges to innovative projects, this repository encapsulates the essence of my academic journey.
 
-## Table of Contents
-
-1. [About Me](#about-me) 
-2. [Education](#education)
-3. [Skills](#skills)
-4. [Projects](#projects)
-5. [Achievements](#achievements)
+## Table of Contents  
+1. [Education](#education)
+2. [Skills](#skills)
+3. [Projects](#projects)
+4. [Achievements](#achievements)
+5. [Past Experiences & Past Career](#past-experiences--past-career)
 6. [Future Goals](#future-goals)
-
-## About Me
-
-<div style="display:flex; align-items:center;">
-  <div style="flex:1;">
-    I am a passionate Computer Science student at Bina Nusantara University, driven by a deep fascination with technology and a strong desire to make a positive impact on the world through innovative solutions.
-  </div>
-</div>
 
 ## Education
 
@@ -30,11 +23,6 @@ Welcome to my portfolio, where I document my learning journey majoring in Comput
   - Bachelor of Science in Computer Science
   - Expected Graduation Year: ***2025***
   - GPA: ***3.17*** (accumulated from Semester 1-4)
-  - Relevant Courses:
-    - Pattern Software Design
-    - Human and Computer Interaction
-    - Object Oriented Programming
-    - Object Oriented Analysis and Design
 
 - ***Past Educations***
   - *2019-2021* : Senior High (Grade 11-12) at Satya Wacana Christian Highschool
@@ -55,26 +43,27 @@ Welcome to my portfolio, where I document my learning journey majoring in Comput
   - C#
   - C++
   - Java
-  - Version Control (Git)
 - Other Languages
   - Python
 
 
 ### Other Technical Skills
 
-- Microsoft Office (Word, Excel, PowerPoint)
-- Visual Studio Code
-- Visual Studio
-- Eclipse IDE
+- Word Processing (Microsoft Word, Google Docs)
+- Spreadsheets (Microsoft Excel, Google Sheets)
+- Presentation (Microsoft PowerPoint, Google Slides)
+- Version Control (Git)
+- Operating Systems (Windows, Linux)
+- IDEs (Visual Studio Code, Visual Studio, Eclipse)
 
 ### Soft Skills
 - Communication
 - Teamwork
 - Problem Solving
-- Time Management (to be improved)
-- Adaptability (to be improved)
+- Time Management ***(to be improved)***
+- Adaptability ***(to be improved)***
 
-### Small hobbies that I do in my free time and can be made use of 
+### Small Hobbies and Interests I can take advantage of 
 - Photography
 - Video Editing
 
@@ -82,9 +71,10 @@ Welcome to my portfolio, where I document my learning journey majoring in Comput
 *My past projects that I made during college life can be seen in the [Projects](./Projects/) directory*
 
 ## Achievements
-
 - *(to be added in the future)*
 
+## Past Experiences & Past Career
+- *(to be added in the future)*
 
 ## Future Goals
 
@@ -100,6 +90,4 @@ Thank you for visiting my portfolio, and I look forward to sharing more exciting
 
 ---
 
-*Note: This portfolio is a work in progress and will be continually updated to reflect my ongoing educational and professional experiences.*
-"# Portfolio" 
-"# Portfolio" 
+*Note: This portfolio may not be perfect as it is currently a work in progress and will be continually updated to reflect my ongoing educational and professional experiences.*
