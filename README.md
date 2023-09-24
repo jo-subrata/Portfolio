@@ -4,7 +4,7 @@
   <p style="text-align: center;"> Based in Jakarta, Indonesia </p>
   
 
-## Introduction (About Me)
+## Introduction
 Greetings, my name is Jonathan Emmanuel. I am a passionate Computer Science student at Bina Nusantara University, driven by a deep fascination with technology and a strong desire to make a positive impact on the world through innovative solutions.
 
 Welcome to my portfolio, where I document my learning journey majoring in Computer Science at Bina Nusantara University. Here, you'll find a collection of projects, experiences, and achievements that reflect my growth and development as a computer science student. From coding challenges to innovative projects, this repository encapsulates the essence of my academic journey.
