@@ -1,7 +1,10 @@
-# <p style="text-align: center;"> About Me </p>
-  <p style="text-align: center;"> Jonathan Emmanuel </p>
-  <p style="text-align: center;"> Undergraduate Student of 2025 at BINUS University </p>
-  <p style="text-align: center;"> Based in Jakarta, Indonesia </p>
+# About Me
+  ```
+  👨‍🦱 Jonathan Emmanuel
+  🎓 Bina Nusantara University 
+  📖 Computer Science
+  📍  Jakarta, Indonesia
+  ```
   
 
 ## Introduction
