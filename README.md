@@ -30,11 +30,6 @@ Welcome to my portfolio, where I document my learning journey majoring in Comput
   - Bachelor of Science in Computer Science
   - Expected Graduation Year: ***2025***
   - GPA: ***3.17*** (accumulated from Semester 1-4)
-  - Relevant Courses:
-    - Pattern Software Design
-    - Human and Computer Interaction
-    - Object Oriented Programming
-    - Object Oriented Analysis and Design
 
 - ***Past Educations***
   - *2019-2021* : Senior High (Grade 11-12) at Satya Wacana Christian Highschool
