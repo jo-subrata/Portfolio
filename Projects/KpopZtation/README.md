@@ -8,9 +8,22 @@ Languages used :
 - Backend:
   - Logic: C#
   - Database: SQL
-  - Reporting: SAP Crystal Reports
 #
 *Contributors of this project:*
-- 2501970310 - Raphael William Theodore Tumewu
-- 2501968943 - Jonathan Emmanuel
-- 2501962422 - Nicholas Vincent Leandro
+- 2501970310 - Raphael William Theodore Tumewu (Frontend & Backend Logic)
+- 2501968943 - Jonathan Emmanuel (Backend Logic & Documentation)
+- 2501962422 - Nicholas Vincent Leandro (Reporting logic)
+
+#
+*Screenshots:*
+
+Login:
+![Login](./Screenshots/login.png)
+Update Profile:
+![Update Profile](./Screenshots/updateProfile.png)
+Home page (admin view):
+![Home Page](./Screenshots/home_admin.png)
+Transaction report (admin view):
+![Transaction Report](./Screenshots//transactionReport_admin.png)
+Artist detail (user view):
+![Artist Detail](./Screenshots/artistDetail_user.png)

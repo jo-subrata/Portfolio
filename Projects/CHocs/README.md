@@ -6,3 +6,7 @@ Languages used : HTML, CSS, JavaScript
 *Contributors of this project:*
 - 2501968943 - Jonathan Emmanuel
 - 2502010856 - Fernando Hosea Dharmawirja
+#
+Screenshots:
+![Home Page](./Screenshots/chocs_home.png)
+![Product Page](./Screenshots/chocs_product.png)
