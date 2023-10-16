@@ -23,7 +23,7 @@ Welcome to my portfolio, where I document my learning journey majoring in Comput
 ## Education
 
 - **Bina Nusantara University**
-  - Bachelor of Science in Computer Science
+  - Bachelor in Computer Science
   - Expected Graduation Year: ***2025***
   - GPA: ***3.17*** (accumulated from Semester 1-4)
 
