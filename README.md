@@ -49,12 +49,8 @@ Welcome to my portfolio, where I document my learning journey majoring in Comput
 - Other Languages
   - Python
 
-
 ### Other Technical Skills
 
-- Word Processing (Microsoft Word, Google Docs)
-- Spreadsheets (Microsoft Excel, Google Sheets)
-- Presentation (Microsoft PowerPoint, Google Slides)
 - Version Control (Git)
 - Operating Systems (Windows, Linux)
 - IDEs (Visual Studio Code, Visual Studio, Eclipse)
